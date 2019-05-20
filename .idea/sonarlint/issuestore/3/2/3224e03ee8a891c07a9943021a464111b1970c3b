@@ -1,0 +1,10 @@
+
+bsquid:S1854#"?Remove this useless assignment to local variable "doubleValue".(áŒçŠøÿÿÿÿ8ëêâÇ¬-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(³Îœ8¾–ãÆ¬-
+‰squid:S4165S"fRemove this useless assignment; "intValue" already holds the assigned value along all execution paths.(éüºøÿÿÿÿ8»ŒšÈ¬-
+]squid:S1854!"?Remove this useless assignment to local variable "doubleValue".(èíŒ¿8É÷³Ç¬-
+…squid:S4165;"gRemove this useless assignment; "longValue" already holds the assigned value along all execution paths.(Ã­ÿ­8×ÏÿÇ¬-
+]squid:S1854"?Remove this useless assignment to local variable "doubleValue".(Ùù·ı8©ö•Ç¬-
+Œsquid:S4165#"iRemove this useless assignment; "doubleValue" already holds the assigned value along all execution paths.(áŒçŠøÿÿÿÿ8ëêâÇ¬-
+qsquid:UselessImportCheck"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8ğ»¼Æ¬-
+Nsquid:S1481"0Remove this unused "doubleValue" local variable.(Ùù·ı8É÷³Ç¬-

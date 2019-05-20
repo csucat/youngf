@@ -1,0 +1,4 @@
+
+esquid:UselessImportCheck":Remove this unused import 'com.sun.deploy.util.ArrayUtil'.(°ã‹8Ä²ßş¬-
+]squid:S1118":Add a private constructor to hide the implicit public one.(Ôß¥…üÿÿÿÿ8ÈÒ´ş¬-
+Ssquid:S1191"5Use classes from the Java API instead of Sun classes.(°ã‹8Ä²ßş¬-
