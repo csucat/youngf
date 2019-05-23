@@ -1,4 +1,3 @@
 
-qsquid:UselessImportCheck"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ8‚ç¼Æ¬-
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(©¾±•8êÃÀÆ¬-
 Psquid:S1135"2Complete the task associated to this TODO comment.(í±¨±8ºÒÏÆ¬-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(©¾±•8êÃÀÆ¬-

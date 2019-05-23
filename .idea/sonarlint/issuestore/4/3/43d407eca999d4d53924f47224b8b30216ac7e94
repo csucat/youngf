@@ -1,12 +1,12 @@
 
-:squid:S1643s"Use a StringBuilder instead.(ıÚãÂ8¬óæö¬-
-msquid:S3027k"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(™ß¡âùÿÿÿÿ8¬óæö¬-
-?squid:S1643m"Use a StringBuilder instead.(Óñ¹Âøÿÿÿÿ8¬óæö¬-
-msquid:S3027K"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(õõÔøÿÿÿÿ8é™ôö¬-
+Psquid:S1135n"2Complete the task associated to this TODO comment.(ßğô«8¬óæö¬-
+jsquid:S00112b"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘Öúö¬-
+msquid:S3027U"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(õõÔøÿÿÿÿ8é™ôö¬-
+@squid:S1643„"Use a StringBuilder instead.(Ş˜ºÔıÿÿÿÿ8¬óæö¬-
 Xsquid:S1118":Add a private constructor to hide the implicit public one.(Øæ¶ó8°ƒÿô¬-
-Psquid:S1135a"2Complete the task associated to this TODO comment.(ßğô«8¬óæö¬-
-?squid:S1643w"Use a StringBuilder instead.(Ş˜ºÔıÿÿÿÿ8¬óæö¬-
-Dsquid:S1075s"&Remove this hard-coded path-delimiter.(ıÚãÂ8¬óæö¬-
-usquid:S37762"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(†¤ô—ıÿÿÿÿ8ìêö¬-
-jsquid:S00112X"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8‘Öúö¬-
 jsquid:S00112*"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÈÌ¨õ¬-
+?squid:S1643z"Use a StringBuilder instead.(Óñ¹Âøÿÿÿÿ8¬óæö¬-
+Esquid:S1075€"&Remove this hard-coded path-delimiter.(ıÚãÂ8¬óæö¬-
+;squid:S1643€"Use a StringBuilder instead.(ıÚãÂ8¬óæö¬-
+msquid:S3027x"JPut single-quotes around '.' to use the faster "lastIndexOf(char)" method.(™ß¡âùÿÿÿÿ8¬óæö¬-
+usquid:S37764"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(†¤ô—ıÿÿÿÿ8ìêö¬-
