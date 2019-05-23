@@ -10,7 +10,6 @@ import java.util.Properties;
 
 public class ConfigHelper {
 
-    //TODO PropsUtil的实现
     private static final Properties CONFIG_PROPS = PropsUtil.loadProps(ConfigConstant.CONFIG_FILE);
 
     /**

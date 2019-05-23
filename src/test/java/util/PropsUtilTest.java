@@ -35,5 +35,6 @@ public class PropsUtilTest {
             System.out.println("false"+ TURN_UP);
         }
         System.out.println(CONNECTION);
+        System.out.println(PropsUtil.class.toString());
     }
 }

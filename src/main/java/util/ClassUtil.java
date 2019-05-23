@@ -53,20 +53,28 @@ public final class ClassUtil {
         Set<Class<?>> classSet = new HashSet<Class<?>>();
         try{
             /**
+             * 根据包名并将其转换为文件路径
+             * 读取class文件或jar包
              * 替换 例如： org.csucat.java 为org/csucat/java
              * */
-            Enumeration<URL> urls = getClassLoader().getResources(packageName.replace(".","/"));
-
+            Enumeration<URL> urls = getClassLoader().
+                    getResources(packageName.replace(".","/"));
             while (urls.hasMoreElements()){
                 URL url = urls.nextElement();
                 if(url != null){
+                    //获取使用的协议
                     String protocol = url.getProtocol();
+                    // 如果是以文件的形式保存在服务器上
                     if(protocol.equals("file")){
+                        //解决URL中出现%20的情况
                         String packagePath = url.getPath().replaceAll("%20"," ");
                         addClass(classSet,packagePath,packageName);
-                    }else if(protocol.equals("jar")){
+                    }
+                    else if(protocol.equals("jar")){
+                        //create a jar url connection object
                         JarURLConnection jarURLConnection = (JarURLConnection) url.openConnection();
                         if(jarURLConnection != null){
+                            //get the jar file
                             JarFile jarFile = jarURLConnection.getJarFile();
                             if(jarFile != null){
                                 Enumeration<JarEntry> jarEntries = jarFile.entries();
